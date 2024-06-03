@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Premium</string>
+    <string name="main">Главная</string>
+    <string name="premium">Премиум</string>
+    <string name="ad">ad</string>
+    <string name="switch_off_ad">Отключение рекламы</string>
+    <string name="restriction_off">Снятие всех ограничений</string>
+    <string name="uploading_data">Загрузка данных…</string>
+    <string name="empty">Пусто</string>
+    <string name="restore_subscription">Восстановить подписку</string>
+    <string name="cancel_subscription">Отменить подписку</string>
+    <string name="price">99 р.</string>
+    <string name="per_month">в месяц</string>
+    <string name="name">Название</string>
+    <string name="trial_period">Бесплатный пробный период</string>
+    <string name="fifty">-50%</string>
+    <string name="thirty">-30%</string>
+    <string name="server_not_available">Сервер не доступен</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="title">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="trial_period_sber_attention">Внимание!</string>
+    <string name="text_trial_period_sber_attention">При оплате через Сбербанк максимальный бесплатный пробный период 5 дней </string>
+    <string name="text_continue">Продолжить</string>
+    <string name="cancel">Отмена</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
