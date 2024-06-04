@@ -42,7 +42,7 @@ class PremiumFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        bimos = Bimos(requireActivity() as AppCompatActivity)
+        bimos = Bimos(activity = requireActivity() as AppCompatActivity)
         bimos.init(
             shopId = 254820,
             secretKey = "live_YeX1KZVv_Mfcvd8yIlVYDjYKwpdgTRwOQkPa1Wk586E",
@@ -55,8 +55,8 @@ class PremiumFragment : Fragment() {
         userEmail = "i.drobush@rambler.ru"
 
 //        getUserPayments()
-//        getApplicationProducts()
-        getProductsAndPayments()
+        getApplicationProducts()
+//        getProductsAndPayments()
 
         binding.cv50.setBackgroundResource(R.drawable.cardview_border)
 
@@ -89,6 +89,8 @@ class PremiumFragment : Fragment() {
             val paymentList = bimos.getPaymentList()
             recoverSubscription(paymentList[0])
         }
+
+        bimos.getPaymentList()
     }
 
     private fun getProductsAndPayments() {
